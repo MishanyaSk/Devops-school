@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+username=$1
+directory=$2
+
+        if id "$1" &> /dev/null; 
+    then
+        echo "$user $1 exist"
+    fi 
+
+
+
+        if [ -d "$2" ]; 
+    then
+        echo "$2 is not a directory"
+    fi 
+
+
+        if [-d "$2"] && id -u  "$1" &> /dev/null;
+    then
+        sudo chown -r $1 $2 &>/dev/null
